@@ -1,0 +1,160 @@
+site_name: Powertools for AWS Lambda (Python)
+site_description: Powertools for AWS Lambda (Python)
+site_author: Amazon Web Services
+repo_url: https://github.com/aws-powertools/powertools-lambda-python
+edit_uri: edit/develop/docs
+
+nav:
+  - Homepage:
+      - index.md
+      - Changelog: changelog.md
+      - API reference: api/" target="_blank
+      - Upgrade guide: upgrade.md
+      - We Made This (Community): we_made_this.md
+      - Workshop 🆕: https://s12d.com/powertools-for-aws-lambda-workshop" target="_blank
+      - Roadmap: roadmap.md
+      - Features:
+          - core/tracer.md
+          - core/logger.md
+          - Metrics:
+              - core/metrics/index.md
+              - Amazon CloudWatch EMF: core/metrics.md
+              - Datadog: core/metrics/datadog.md
+          - Event Handler:
+              - core/event_handler/api_gateway.md
+              - core/event_handler/appsync.md
+              - core/event_handler/bedrock_agents.md
+          - utilities/parameters.md
+          - utilities/batch.md
+          - utilities/typing.md
+          - utilities/validation.md
+          - utilities/data_classes.md
+          - utilities/parser.md
+          - utilities/idempotency.md
+          - utilities/data_masking.md
+          - utilities/feature_flags.md
+          - utilities/streaming.md
+          - utilities/middleware_factory.md
+          - utilities/jmespath_functions.md
+          - CloudFormation Custom Resources: https://github.com/aws-cloudformation/custom-resource-helper" target="_blank
+  - Tutorial: tutorial/index.md
+  - Processes:
+      - Security: security.md
+      - Automation: automation.md
+      - Versioning policy: versioning.md
+      - Roadmap: roadmap.md
+      - Maintainers: maintainers.md
+      - Contributing:
+          # - contributing/index.md
+          - Development environment: contributing/setup.md
+          - Your first contribution: contributing/getting_started.md
+          - Conventions: contributing/conventions.md
+          # - Testing:
+          #     - Unit tests: contributing/testing/unit_tests.md
+          #     - Functional tests: contributing/testing/functional_tests.md
+          #     - End-to-end tests: contributing/testing/e2e_tests.md
+          # - Documentation:
+          #     - User guide: contributing/documentation/user_guide.md
+          #     - API guide: contributing/documentation/api_guide.md
+          #     - Tutorials: contributing/documentation/tutorials.md
+          #     - Request For Comments (RFC): contributing/documentation/rfc.md
+          # - Tracks:
+          #     - Overview: contributing/tracks/overview.md
+          #     - Casual to regular contributor: contributing/tracks/casual_regular_contributor.md
+          #     - Customer to advocate: contributing/tracks/customer_advocate.md
+
+theme:
+  name: material
+  font:
+    text: Ubuntu
+  palette:
+    - scheme: default
+      primary: deep purple
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+  features:
+    - header.autohide
+    - navigation.sections
+    - navigation.top
+    - navigation.instant
+    - navigation.indexes
+    - navigation.tracking
+    - navigation.tabs
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+  icon:
+    repo: fontawesome/brands/github
+  logo: media/aws-logo-light.svg
+  favicon: media/aws-logo-light.svg
+  custom_dir: docs/overrides
+
+markdown_extensions:
+  - admonition
+  - abbr
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.details
+  - pymdownx.snippets:
+      base_path: "."
+      check_paths: true
+      restrict_base_path: false
+      auto_append:
+        - includes/abbreviations.md
+  - meta
+  - toc:
+      permalink: true
+      toc_depth: 5
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+copyright: Copyright &copy; 2023 Amazon Web Services
+
+plugins:
+  - git-revision-date
+  - search
+
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascript/aws-amplify.min.js
+  - javascript/extra.js
+  - https://docs.powertools.aws.dev/shared/mermaid.min.js
+
+extra:
+  version:
+    provider: mike
+    default: latest
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/B8zZKbbyET
+      name: Discord Server for Powertools for AWS
+    - icon: material/web
+      link: https://powertools.aws.dev/
+      name: Official website for Powertools for AWS
+    - icon: simple/python
+      link: https://pypi.org/project/aws-lambda-powertools/
+      name: PyPi package
