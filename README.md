@@ -82,10 +82,14 @@ This helps us understand who uses Powertools for AWS Lambda (Python) in a non-in
 * Structured Power Tools for AWS Lambda Python initial implementation from [Power Tools for AWS Lambda Python](https://github.com/nholuongut/Power-Tools-for-AWS-Lambda-Python)
 * Power with DevOps for AWS Lambda (Python) idea [Python Zero to Hero for DevOps Engineers](hhttps://github.com/nholuongut/Python-Zero-to-Hero-for-DevOps-Engineers)
 
-## Connect
+### [Contact an Author]
+* [Name: nho Luong]
+* [Skype](luongutnho_skype)
+* [Github](https://github.com/nholuongut/)
+* [Linkedin](https://www.linkedin.com/in/nholuong/)
+* [Email Address](luongutnho@hotmail.com) 
 
-* **Powertools for AWS Lambda on Discord**: `#python` - **[Linkedin here]* (https://www.linkedin.com/in/nholuong/)**
-* **Email**: <luongutnho@hotmail.com>
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/nholuong)
 
 ## Security disclosures
 
