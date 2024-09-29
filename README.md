@@ -5,6 +5,14 @@
 
 **[📜Documentation](https://docs.powertools.aws.dev/lambda/python/)** | **[🐍PyPi](https://pypi.org/project/aws-lambda-powertools/)** | **[Roadmap](https://docs.powertools.aws.dev/lambda/python/latest/roadmap/)**
 
+![](https://i.imgur.com/waxVImv.png)
+
+# Roadmaps are now interactive, you can click the nodes to read more about the topics.
+
+### [View all Roadmaps](https://github.com/nholuongut/all-roadmaps) &nbsp;&middot;&nbsp; [Best Practices](https://github.com/nholuongut/all-roadmaps/blob/main/public/best-practices/) &nbsp;&middot;&nbsp; [Questions](https://www.linkedin.com/in/nholuong/)
+
+![](https://i.imgur.com/waxVImv.png)
+
 ![hero-image](https://user-images.githubusercontent.com/3340292/198254617-d0fdb672-86a6-4988-8a40-adf437135e0a.png)
 
 ## Features
@@ -82,19 +90,21 @@ This helps us understand who uses Powertools for AWS Lambda (Python) in a non-in
 * Structured Power Tools for AWS Lambda Python initial implementation from [Power Tools for AWS Lambda Python](https://github.com/nholuongut/Power-Tools-for-AWS-Lambda-Python)
 * Power with DevOps for AWS Lambda (Python) idea [Python Zero to Hero for DevOps Engineers](hhttps://github.com/nholuongut/Python-Zero-to-Hero-for-DevOps-Engineers)
 
-### [Contact an Author]
+I'm are always open to your feedback.  Please contact as bellow information:
+### [Contact ]
 * [Name: nho Luong]
 * [Skype](luongutnho_skype)
 * [Github](https://github.com/nholuongut/)
 * [Linkedin](https://www.linkedin.com/in/nholuong/)
-* [Email Address](luongutnho@hotmail.com) 
+* [Email Address](luongutnho@hotmail.com)
 
+![](https://i.imgur.com/waxVImv.png)
+![](bitfield.png)
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/nholuong)
+
+# License
+* Nho Luong (c). All Rights Reserved.
 
 ## Security disclosures
 
 If you think you’ve found a potential security issue, please do not post it in the Issues.  Instead, please follow the instructions [Linkedin here]* (https://www.linkedin.com/in/nholuong/) or [email Author security directly](mailto:luongutnho@hotmail.com).
-
-## License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.
